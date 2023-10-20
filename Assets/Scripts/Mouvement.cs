@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Mouvement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed;
 
-    // Update is called once per frame
+    public float moveSpeed = 5f;
+    public Rigidbody2D rb;
+    public Animator animator;
+    Vector2 movement;
+   
+
     void Update()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x + 0.1f * Time.deltaTime, gameObject.transform.position.y, gameObject.transform.position.z);
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+    }
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
