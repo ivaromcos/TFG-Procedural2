@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3219880226280704006
+--- !u!1001 &7236393361056318023
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14,11 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449196588411796525, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.48
+      value: -5.18
       objectReference: {fileID: 0}
     - target: {fileID: 8449196588411796525, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.65
+      value: -5.81
       objectReference: {fileID: 0}
     - target: {fileID: 8449196588411796525, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
       propertyPath: m_LocalPosition.z
@@ -58,36 +58,36 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6560730843264074593, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6762589366970046490}
+      addedObject: {fileID: 640665499314771599}
     - targetCorrespondingSourceObject: {fileID: 6560730843264074593, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6101021278586455174}
+      addedObject: {fileID: 3014604120770215439}
   m_SourcePrefab: {fileID: 100100000, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
---- !u!1 &8620793418797304679 stripped
+--- !u!1 &4566844201642590502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6560730843264074593, guid: 2c562294afec8c34fb23d95edb4e0619, type: 3}
-  m_PrefabInstance: {fileID: 3219880226280704006}
+  m_PrefabInstance: {fileID: 7236393361056318023}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6762589366970046490
+--- !u!114 &640665499314771599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8620793418797304679}
+  m_GameObject: {fileID: 4566844201642590502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc5365b65bfe49840af617d30ed193bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &6101021278586455174
+--- !u!61 &3014604120770215439
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8620793418797304679}
-  m_Enabled: 1
+  m_GameObject: {fileID: 4566844201642590502}
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
